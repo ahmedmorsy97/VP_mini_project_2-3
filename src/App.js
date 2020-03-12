@@ -180,7 +180,7 @@ const App = () => {
             if (inRect) {
               if (parseData.length === 3) {
                 if (rects(parseData)[0].xT <= rects(parseData)[1].xB) {
-                  if (parseData[0].yB === parseData[1].yB) {
+                  if (rects(parseData)[0].yB === rects(parseData)[1].yB) {
                     if (
                       circles(parseData)[0].xB > rects(parseData)[0].xB ||
                       circles(parseData)[0].xB > rects(parseData)[1].xB
@@ -204,7 +204,7 @@ const App = () => {
                   }
                 } else {
                   if (rects(parseData)[1].xT <= rects(parseData)[0].xB) {
-                    if (parseData[1].yB === parseData[0].yB) {
+                    if (rects(parseData)[1].yB === rects(parseData)[0].yB) {
                       if (
                         circles(parseData)[0].xB > rects(parseData)[0].xB ||
                         circles(parseData)[0].xB > rects(parseData)[1].xB

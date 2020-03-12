@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# VP_mini_project_2
+
+# To run
+Note (nodejs should be installed in the system)
+  1- npm install
+  2- npm start
+  
+# Description
+This project take the data in the textarea then return if it is valid or not on the screen then draw the input data.
+
+# How it works ?
+This project contains mini project 2 and 3 at the first moment of cloning the repo the project result will show the mini project 2, so to change to mini project 3 simply uncomment lines 312 till 315 and 319, 320 and 357
+
 
 ## Available Scripts
 
